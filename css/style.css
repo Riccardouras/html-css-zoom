@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    background-color: black;
+} 
+
+header{
+    height: 7.70010vh;
+}
+main {
+    height: 83.78926VH;
+}
+.flex {
+    display: flex;
+}
+.flexEnd{
+    justify-content: flex-end;
+    align-content: flex-start;
+} 
+header > div i,
+header > div span
+{
+    height: 2.53293vh;
+    background-color: #b9b7c5;
+    color: whitesmoke;
+} 
+header > div span{
+    margin-right: 1vh;
+}
+.containerM{
+    justify-content: center;
+    align-content: center;
+    height: 25vh;
+}
+.containerM img{
+    margin: 1vh;
+}
+footer{
+    background-color: #222222;
+    height: 8.16327vh;
+}
+
+.containerF{
+    justify-content: space-around;
+    color: white;
+}
+.start {
+    display: flex;
+    justify-content: flex-start;
+    width: 35.52083vw;
+}
+.start i{
+    padding: 3vh;
+}
