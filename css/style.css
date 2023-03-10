@@ -32,21 +32,32 @@ header > div span
 header > div span{
     margin-right: 1vh;
 }
-.containerM{
+.wrap {
+    flex-wrap: wrap;
+    height: 25vh;
     justify-content: center;
     align-content: center;
-    height: 25vh;
+}
+.wrap img{
+    margin: 1vh;
+    height: 10vh;
 }
 .containerM img{
     margin: 1vh;
 }
+.PR{
+    position: relative;
+}
+.PA {
+    position: absolute;
+}
+
 footer{
     background-color: #222222;
     height: 8.16327vh;
 }
 
 .containerF{
-    justify-content: space-around;
     color: white;
 }
 .start {
@@ -56,4 +67,21 @@ footer{
 }
 .start i{
     padding: 3vh;
+}
+.end{
+    justify-content: center;
+}
+.end i{
+    padding: 3vh;
+}
+#Green {
+    color: green;
+}
+.containerF p{
+    display: flex;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    position: relative;
+    left: 1vh;
+    left: -6.1vh;
 }
